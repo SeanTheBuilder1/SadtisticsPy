@@ -8,4 +8,4 @@ def get(data_list):
         deviation_sum += (val - deviation_mean)**2
         sum +=val
     
-    return deviation_sum/sum
+    return deviation_sum/len(data_list)
